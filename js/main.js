@@ -271,6 +271,7 @@
         var card = list.querySelector('[data-founder="' + index + '"]');
         if (!card) return;
         card.querySelector("h3").textContent = founder.name;
+        if (founder.role) card.querySelector(".eyebrow").textContent = founder.role;
         card.querySelector(".founder__bio").textContent = founder.bio;
       });
       list.hidden = false;
