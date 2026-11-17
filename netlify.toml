@@ -1,0 +1,6 @@
+# Never serve the readable bios or the encryption script.
+[[redirects]]
+  from = "/private/*"
+  to = "/404.html"
+  status = 404
+  force = true
