@@ -13,7 +13,7 @@ window.BBTH_BRANDS = [
     category: "Apparel",
     description:
       "A unisex clothing brand with a rustic ’90s California beach feel.",
-    url: "", // TODO: add Saverine URL
+    url: "https://saverine.shop",
   },
   {
     name: "Webadi Digital Design Studio",
