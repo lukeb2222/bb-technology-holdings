@@ -24,9 +24,9 @@ window.BBTH_BRANDS = [
   },
   {
     name: "Axol",
-    category: "Information",
+    category: "Advertising Technology",
     description:
-      "An information site about axolotls and how to care for them, from feeding to tank setup.",
+      "An AI-powered social media algorithm that promotes businesses to the right audience. Businesses request advertising and pay for it.",
     url: "https://axol.netlify.app",
   },
 ];
