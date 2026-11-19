@@ -24,9 +24,9 @@ window.BBTH_BRANDS = [
   },
   {
     name: "Axol",
-    category: "Advertising Technology",
+    category: "Social Media",
     description:
-      "An AI-powered social media algorithm that promotes businesses to the right audience. Businesses request advertising and pay for it.",
-    url: "https://axol.netlify.app",
+      "A social media platform with an AI-powered algorithm. Businesses can request advertising and pay to be promoted to its audience.",
+    url: "https://axol-app.netlify.app",
   },
 ];
