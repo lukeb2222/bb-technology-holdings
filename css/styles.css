@@ -1243,8 +1243,9 @@ h3 {
 }
 
 .founder__bio {
-  max-width: 40ch;
+  max-width: 44ch;
   color: var(--muted);
+  white-space: pre-line;
 }
 
 /* ---------- Private bios gate ---------- */
@@ -1347,5 +1348,12 @@ h3 {
 
   .holding > div {
     grid-column: 6 / -1;
+  }
+}
+
+/* Keep founder names level when one role line wraps */
+@media (min-width: 600px) {
+  .founder .eyebrow {
+    min-height: 3em;
   }
 }
